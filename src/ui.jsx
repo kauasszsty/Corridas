@@ -49,7 +49,7 @@ export function Tabs({ tabs, active, onChange, className }) {
               <span
                 className={cx(
                   "tabular ml-0.5 rounded px-1.5 py-0.5 text-[10px]",
-                  ativo ? "bg-v2accent/15 text-v2accent" : "bg-white/[0.05] text-v2faint",
+                  ativo ? "bg-v2accent/15 text-v2accent-text" : "bg-white/[0.05] text-v2faint",
                 )}
               >
                 {tab.count}

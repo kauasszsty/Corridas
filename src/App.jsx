@@ -57,7 +57,7 @@ export default function App() {
 
       {loading ? (
         <div className="grid min-h-[50vh] place-items-center">
-          {erro ? <p className="text-rose-400">{erro}</p> : <Loader2 size={28} className="animate-spin text-v2accent" />}
+          {erro ? <p className="text-rose-400">{erro}</p> : <Loader2 size={28} className="animate-spin text-v2accent-text" />}
         </div>
       ) : erro ? (
         <div className="grid min-h-[50vh] place-items-center">
@@ -115,7 +115,7 @@ export default function App() {
                           <span
                             className={
                               "flex items-center gap-1.5 text-[13px] font-medium " +
-                              (ativa ? "text-v2accent" : "text-v2ink")
+                              (ativa ? "text-v2accent-text" : "text-v2ink")
                             }
                           >
                             <Flag size={12} strokeWidth={1.75} className="shrink-0 text-v2faint" />

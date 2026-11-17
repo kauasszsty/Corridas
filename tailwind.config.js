@@ -11,7 +11,7 @@ export default {
         v2ink: "#edebe4",
         v2muted: "#a89f88",
         v2faint: "#6b6656",
-        v2accent: { DEFAULT: "#d4af37", soft: "#3a2f14" },
+        v2accent: { DEFAULT: "#0d4eb0", soft: "#0a1e3d", text: "#6ea3f0" },
       },
       fontFamily: {
         display: ['"Rajdhani"', '"Oswald"', "sans-serif"],

@@ -7,13 +7,13 @@
   body {
     @apply bg-v2base text-v2ink font-body antialiased;
     background-image:
-      radial-gradient(70% 55% at 50% -10%, rgba(212, 175, 55, 0.1) 0%, rgba(8, 8, 7, 0) 60%),
+      radial-gradient(70% 55% at 50% -10%, rgba(13, 78, 176, 0.14) 0%, rgba(8, 8, 7, 0) 60%),
       linear-gradient(180deg, #080807 0%, #0a0a09 100%);
     background-attachment: fixed;
     min-height: 100vh;
   }
   h1, h2, h3, h4 { @apply font-display tracking-wide; }
-  ::selection { background: rgba(212, 175, 55, 0.3); color: #fff; }
+  ::selection { background: rgba(13, 78, 176, 0.45); color: #fff; }
 }
 
 .scrollbar-thin { scrollbar-width: thin; scrollbar-color: #232939 transparent; }
