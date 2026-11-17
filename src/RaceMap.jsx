@@ -242,7 +242,7 @@ export default function RaceMap({
     <div
       ref={containerRef}
       className={cx(
-        'relative h-[min(70vh,700px)] min-h-[420px] w-full select-none overflow-hidden overscroll-contain rounded-xl border border-v2line bg-[#159fc2]',
+        'relative h-[min(85vh,900px)] min-h-[520px] w-full select-none overflow-hidden overscroll-contain rounded-xl border border-v2line bg-[#159fc2]',
         arrastando ? 'cursor-grabbing' : 'cursor-grab',
       )}
     >

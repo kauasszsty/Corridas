@@ -49,13 +49,10 @@ export default function App() {
   const totalSprint = corridas.filter((c) => c.tipo === "sprint").length;
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
-      <header className="flex items-center gap-3">
-        <img src="/logo.png" alt="GRA" className="h-11 w-11 object-contain" />
-        <div className="min-w-0">
-          <h1 className="text-2xl font-semibold text-v2ink">Corridas</h1>
-          <p className="text-[12px] text-v2muted">GRA · Cidade Alta — catálogo de pistas e percursos</p>
-        </div>
+    <div className="mx-auto max-w-[1600px] px-4 py-8 sm:px-6">
+      <header className="min-w-0">
+        <h1 className="text-2xl font-semibold text-v2ink">Cidade Alta - Corridas</h1>
+        <p className="text-[12px] text-v2muted">GRA · Cidade Alta — catálogo de pistas e percursos</p>
       </header>
 
       {loading ? (
@@ -83,7 +80,7 @@ export default function App() {
             </div>
           </div>
 
-          <div className="grid gap-4 xl:grid-cols-[320px_1fr]">
+          <div className="grid gap-4 xl:grid-cols-[340px_1fr]">
             <aside className="flex min-h-0 flex-col gap-3">
               <Tabs
                 tabs={[
@@ -99,7 +96,7 @@ export default function App() {
                 value={busca}
                 onChange={(e) => setBusca(e.target.value)}
               />
-              <Panel className="max-h-[min(70vh,700px)] min-h-[380px] overflow-y-auto scrollbar-thin">
+              <Panel className="max-h-[min(85vh,900px)] min-h-[380px] overflow-y-auto scrollbar-thin">
                 {lista.length === 0 ? (
                   <EmptyState icon={Flag} title="Nenhuma corrida encontrada" />
                 ) : (
